@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhiwdjazib96qxf9">
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="$name" value="Klassendiagramm"/>
+		<reference referencedUin="jdt:e_class:src:Application.Benutzerschnittstelle.View.View">
+			<property name="bounds" value="495,295,200,118"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="jdt:l_gnt:src:Application.Benutzerschnittstelle.View.View:Observer">
+				<property name="sourceAnchor" value="700,340"/>
+				<property name="targetAnchor" value="820,100"/>
+				<property name="bendpoints" value="820,340"/>
+				<property name="smooth_bendpoints" value="820,340"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Application.Benutzerschnittstelle.View.View:lnkModel">
+				<property name="sourceAnchor" value="580,418"/>
+				<property name="targetAnchor" value="388,500"/>
+				<property name="bendpoints" value="580,500"/>
+				<property name="smooth_bendpoints" value="580,500"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:e_method:src:Application.Benutzerschnittstelle.View.View.manipulate:manipulate">
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Application.Anwendung.Model.Model">
+			<property name="bounds" value="183,472,200,134"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:Application.Anwendung.Model.Model:instance">
+				<property name="sourceAnchor" value="388,580"/>
+				<property name="targetAnchor" value="360,611"/>
+				<property name="bendpoints" value="420,580,420,660,360,660"/>
+				<property name="smooth_bendpoints" value="420,580,420,660,360,660"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_gnt:src:Application.Anwendung.Model.Model:Subject">
+				<property name="sourceAnchor" value="340,477"/>
+				<property name="targetAnchor" value="340,120"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Design.Subject">
+			<property name="bounds" value="295,35,200,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:Design.Subject:lnkObserver">
+				<property name="sourceAnchor" value="500,72"/>
+				<property name="targetAnchor" value="780,72"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Design.Observer">
+			<property name="bounds" value="775,15,117,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Application.Benutzerschnittstelle.Controller.UCController.UCControllerSpielzugDurchführen">
+			<property name="bounds" value="815,455,200,132"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:Application.Benutzerschnittstelle.Controller.UCController.UCControllerSpielzugDurchführen:lnkView">
+				<property name="sourceAnchor" value="820,500"/>
+				<property name="targetAnchor" value="640,418"/>
+				<property name="bendpoints" value="640,500"/>
+				<property name="smooth_bendpoints" value="640,500"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_gnt:src:Application.Benutzerschnittstelle.Controller.UCController.UCControllerSpielzugDurchführen:Observer">
+				<property name="sourceAnchor" value="847,460"/>
+				<property name="targetAnchor" value="847,100"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Application.Benutzerschnittstelle.Controller.UCController.UCControllerSpielzugDurchführen:lnkModel">
+				<property name="sourceAnchor" value="820,522"/>
+				<property name="targetAnchor" value="388,522"/>
+			</reference>
+		</reference>
+	</view>
+</nodeSet>

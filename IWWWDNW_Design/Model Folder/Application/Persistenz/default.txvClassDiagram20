@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="ghzocniwdinayt-jwvpqs">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="jdt:e_class:src:Application.Persistenz.Spielfeld">
+			<property name="bounds" value="259,125,88,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Application.Persistenz.Würfel">
+			<property name="bounds" value="5,245,80,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Application.Persistenz.Wissensstreiter">
+			<property name="bounds" value="5,125,134,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Application.Persistenz.Frage">
+			<property name="bounds" value="156,5,80,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Application.Persistenz.Fragekategorie">
+			<property name="bounds" value="5,5,131,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Application.Persistenz.Wissensstandsanzeiger">
+			<property name="bounds" value="256,5,188,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Application.Persistenz.Farbe">
+			<property name="bounds" value="105,245,93,50"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Application.Persistenz.Spieler">
+			<property name="bounds" value="159,125,80,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Application.Persistenz.Spiel">
+			<property name="bounds" value="218,245,80,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

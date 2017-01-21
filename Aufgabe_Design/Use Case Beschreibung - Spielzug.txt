@@ -1,0 +1,30 @@
+Use-Case-Beschreibung: 
+
+Name: "Spielzug durchführen"
+Akteure: Spieler, Spiel
+Beschreibung: Der Ablauf einer Spielrunde eines Spielers ohne Fragestellung. Diese beginnt mit dem (mehrmaligem) Würfeln einer Zahl, dem Ziehen oder nicht-Ziehen einer Spielfigur. Wurde die Spielfigur gezogen, wird entweder eine Wissensfrage eingeleitet oder der nächste Spieler kommt an die Reihe.
+
+
+
+=======================
+
+
+Systemoperationen:
+
+Name: SYSOP-SP1 würfeln():void
+Verantwortlichkeit: erzeugt Augenzahlen durch einen Zufallsgenerator von 1 bis 6
+Referenzen: System Use Case SUC-1 “Spielzug durchführen“
+Bemerkungen: Spieler darf bis zu 3 mal würfeln, wenn keiner seiner Wissensstreiter auf Spielfeld steht und er keine 6 gewürfelt hat.
+Ausnahmen: 
+Output: gewürfelte Augenzahl
+Vorbedingungen: Spieler ist am Zug und hat bereits 0 bis 2 mal gewürfelt.
+Nachbedingungen: Spieler darf Wissensstreiter bewegen <oder> Spieler darf Wissensstreiter auf Startfeld setzen <oder> Spieler darf erneut würfeln <oder> Spieler darf gar nichts.
+
+Name: SYSOP-SP2 ziehen():void
+Verantwortlichkeit: Wissensstreiter wird um Augenzahl bewegt
+Referenzen: System Use Case SUC-1 “Spielzug durchführen“
+Bemerkungen: Wissensstreiter des selben Spielers dürfen nicht auf das selbe Feld gezogen werden.
+Ausnahmen: 
+Output: Neue Position des Wissensstreiters
+Vorbedingungen: Spieler ist am Zug und hat eine Zahl gewürfelt und noch nicht gezogen. 
+Nachbedingungen: Eine Spielfigur hat seine Position geändert.

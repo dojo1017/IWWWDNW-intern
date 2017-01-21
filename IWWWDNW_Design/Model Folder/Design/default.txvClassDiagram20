@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhiwdineqs7xf9xj">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="jdt:e_class:src:Design.Observer">
+			<property name="bounds" value="355,15,117,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V-jr6xbaiwng8v6s5xhhtg">
+			<property name="bounds" value="335,295,206,105"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Design.Subject">
+			<property name="bounds" value="5,5,200,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:Design.Subject:lnkObserver">
+				<property name="sourceAnchor" value="210,55"/>
+				<property name="targetAnchor" value="360,55"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Design.Model">
+			<property name="bounds" value="5,125,80,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhiwdjazib96qxf9">
+			<property name="bounds" value="555,125,231,137"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V-b8dyjiiwnh5g10-qfelif">
+			<property name="bounds" value="5,245,239,73"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::Vam8ynkiwxl49f4-g4jqyh">
+			<property name="bounds" value="215,128,178,73"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::Vam8ynkiwxn0vboep7puy">
+			<property name="bounds" value="875,25,178,60"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

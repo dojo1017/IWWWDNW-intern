@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IWWWDNW_Design:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IWWWDNW_Design_jar</output-path>
+    <root id="archive" name="IWWWDNW_Design.jar">
+      <element id="module-output" name="IWWWDNW_Design" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jar/jansi-1.14.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

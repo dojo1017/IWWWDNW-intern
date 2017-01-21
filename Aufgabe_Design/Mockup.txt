@@ -1,0 +1,55 @@
+Spieler 😈, du bist am Zug!
+
+Dein aktueller Wissensstand ist:
+Kategorie "Mathe":      Unwissender
+Kategorie "Geschichte": Anfänger
+Kategorie "Informatik": Profi
+Kategorie "Erdkunde":   Anfänger
+
+Zum Würfeln, drücke die <<Leertaste>>
+
+Würfelt..... Fünf!
+
+[😀]-o-o-o-o-o-o-😑-o-o-o-o-[ ]-o-o-o-o-o-😈¹-o-o-o-o-o-[ ]-o-o-o-😋-😈²-o-o-o-o-o-o-[ ]-o-o-o-😋-o-o-o-o-o-o-o
+
+Wähle deinen Wissenstreiter (1, 2): 2
+
+[😀]-o-o-o-o-o-o-😑-o-o-o-o-[ ]-o-o-o-o-o-😈¹-o-o-o-o-o-[ ]-o-o-o-😋-o-o-o-o-o-😈²-o-[ ]-o-o-o-😋-o-o-o-o-o-o-o
+
+😈² bewegte sich um fünf Felder.
+
+==================================================================================================================
+
+Spieler 😀, du bist am Zug!
+
+Dein aktueller Wissensstand ist:
+Kategorie "Mathe":      Anfänger
+Kategorie "Geschichte": Anfänger
+Kategorie "Informatik": Unwissender
+Kategorie "Erdkunde":   Profi
+
+Zum Würfeln, drücke die <<Leertaste>>
+
+Würfelt..... Sechs!
+
+[😀¹]-o-o-o-o-o-o-😑-o-o-o-o-[ ]-o-o-o-o-o-😈-o-o-o-o-o-[ ]-o-o-o-😋-o-o-o-o-o-😈-o-[ ]-o-o-o-😋-o-o-o-o-o-o-o
+
+[😀¹]-o-o-o-o-o-o-😑-o-o-o-o-[😀²]-o-o-o-o-o-😈-o-o-o-o-o-[ ]-o-o-o-😋-o-o-o-o-o-😈-o-[ ]-o-o-o-😋-o-o-o-o-o-o-o
+
+😀² hat sich auf dein Startfeld gesetzt.
+
+==================================================================================================================
+
+Spieler 😑, du bist am Zug!
+
+Dein aktueller Wissensstand ist:
+Kategorie "Mathe":      Profi
+Kategorie "Geschichte": Profi
+Kategorie "Informatik": Fortgeschrittener
+Kategorie "Erdkunde":   Profi
+
+Zum Würfeln, drücke die <<Leertaste>>
+
+Würfelt..... Eins!
+
+[😀¹]-o-o-o-o-o-o-😑-o-o-o-o-[😀²]-o-o-o-o-o-😈-o-o-o-o-o-[ ]-o-o-o-😋-o-o-o-o-o-😈-o-[ ]-o-o-o-😋-o-o-o-o-o-o-o
